@@ -1,7 +1,14 @@
+/*
+Отлично: использован'./normalize.css';" и сайт уже будет выглядеть одинаково в разных браузерах
+*/
 @import './normalize.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
 
+/*
+Файл index.css довольно большой и описывает все элементы сайта
+Можно лучше: разбить Index.css на несколько файлов под каждый элемент (projects, todolist, auth-page, form-auth)
+*/
 .page {
   min-height: 100vh;
   background: black;
